@@ -9,5 +9,5 @@ function addLiItem( liContent ){
     list.appendChild(document.createTextNode(liContent))
     document.querySelector('.list-group').appendChild(list)
 }
-
+ // time complexity of adding item is O(1)
 addLiItem('Item 5')
