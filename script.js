@@ -11,3 +11,9 @@ function addLiItem( liContent ){
 }
  // time complexity of adding item is O(1)
 addLiItem('Item 5')
+
+var items = document.querySelector('li')
+items.style.backgroundColor = "gray"
+
+var lis = document.querySelectorAll('li')[2]
+lis.style.display = 'none'
