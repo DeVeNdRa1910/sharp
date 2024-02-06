@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shope Management</title>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Shop Management</h2>
+        <label for="number">S No.</label>
+        <input type="number" name="serialNumber" class="pnum" id="sno" placeholder="serial Number"> <br>
+        <label for="name">Name:</label>
+        <input type="text" name="name" class="pname" id="name" placeholder="Product"> <br>
+        <label for="name">Price:</label>
+        <input type="text" name="price" class="pprice" id="price" placeholder="Price"> <br>
+        <label for="name">Quantity:</label>
+        <input type="text" name="stock" class="pstock" id="quantity" placeholder="Quantity"> <br>
+        <button class="btn" id="addData">SUBMIT</button>
+        <button class="btn" id="getData">GET PRODUCTS</button>
+    </div>
+    <div class="list">
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>S No</th>
+                    <th>Products</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <!-- <tbody id="dataBody">
+            </tbody> -->
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

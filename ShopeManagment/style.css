@@ -1,0 +1,27 @@
+td ,th{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+th{
+    background-color: black;
+    color: aliceblue;
+}
+button{
+    padding: 10px;
+    margin: 8px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+#submit{
+    background-color: rgb(50, 208, 50);
+    color: aliceblue;
+}
+#update{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+}
+#delete{
+    background-color: red;
+    color: aliceblue;
+}
